@@ -1,7 +1,16 @@
+body{
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+.navbar-dark{
+  background-color: #eba5d1;
+}
 .jumbotron{
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
   background: #d9a7c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .footer{
@@ -11,3 +20,18 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, F
   
   padding: 32px 0px 32px 0px;
 }
+.row-header{
+  margin:0px auto;
+  padding:15px 0px 0px 0px;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+/* .address{
+  font-size: 80%;
+  margin: 0px;
+} */
